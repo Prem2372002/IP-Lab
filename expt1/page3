@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title style="color: cadetblue;"> video</title>
+    </head>
+    <body background="C:\Users\admin\Desktop\front page.jpg">
+        <h1 style="-webkit-text-fill-color: rgb(1, 5, 7);text-align: center;text-decoration: underline;"> DO IT YOUSELF</h1>
+        <center>
+            <table>
+                <tr>
+                    <th style="color: aliceblue;text-decoration: double;"></th>
+                </tr><br>
+                <tr>
+        <th><video width="1000" height="500" controls>
+  <source src="C:\Users\admin\Downloads\WhatsApp Video 2023-01-29 at 12.01.18 AM (1).mp4" type="video/mp4">
+ 
+</video></th>
+</tr>
+<tr>
+    <th style="color: aliceblue;text-decoration: double;text;"></th>
+</tr>
+<tr>
+    <th><video  width="1000" height="500" controls>
+        
+        <source src="C:\Users\admin\Downloads\WhatsApp Video 2023-01-29 at 12.01.18 AM.mp4" type="video/mp4">
+    </video></th>
+</tr>
+<tr>
+    <th style="color: aliceblue;text-decoration: double;text;"></th>
+</tr>
+<tr>
+    <th><video  width="1000" height="500" controls>
+        
+        <source src="C:\Users\admin\Downloads\WhatsApp Video 2023-01-29 at 12.01.16 AM.mp4" type="video/mp4">
+    </video></th>
+</tr>
+
+        
+            </table>
+        </center>
+    </body>
+</html>

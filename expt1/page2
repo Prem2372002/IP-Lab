@@ -1,0 +1,38 @@
+<html>
+<body background="C:\Users\admin\Desktop\3rd page.jpg">
+        <center>
+<form > <h1 style="text-align: center;"> LOGIN FORM </h1>
+        
+        <table >
+             
+        <td>
+        <label for="San"> First Name </label>
+     
+        <input type="text" name="San" value="Enter your name"><br>
+  
+     
+       
+        <label for="email">email</label>
+        
+        <input type="email" name="email" value="enter  your email id"><br>
+        <label for="phone">phone number</label>
+       
+        <input type="tel" name="email" value="enter your name"><br>
+        <label for="web">website</label>
+       
+        <input type="url" name="web" value="enter your website" ><br>
+        <label for="pass">password</label>
+        <input type="password" name="pass" ><br>
+        <input type="button" value="submit"> 
+        </td>
+        
+           
+
+    
+        </table>
+        
+        
+        </form>
+    
+        </center>
+        </body>

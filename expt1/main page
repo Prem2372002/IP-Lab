@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>EXPT 2</title>
+    </head>
+    <body background="C:\Users\admin\Desktop\front page 2.jpg">
+        <style>
+            h1{
+                color: rgb(10, 10, 10);
+                font-size: 36px;
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+            } 
+        </style>
+        <h1> 
+         CRAFTOMANIA
+        </h1>
+        <a href="page.html" target="_blank">click register and join </a><br>
+        <a href="Untitled-2.html" target="_blank">click here to view DIY</a><br>
+        <br>
+        <br>
+        
+    </body>
+
+</html>
+     

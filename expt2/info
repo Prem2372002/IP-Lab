@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>
+            exp 1
+        </title>
+    </head>
+    <body>
+        <img src="C:\Users\admin\Pictures\animals.jpg" alt="workmap" usemap="#workmap">
+        <map name="workmap">
+            <area shape="poly" coords="499,36,552,36,514,89,468,57,539,61,610,95,665,739,138,785,217,783,258,706,194,605,202,635,265,589,177,524,102" alt="giraffe" href="girafee.html" target="_blank">
+            <area shape="poly" coords="282,139,389,135,443,211,378,251,345,272,328,325,288,279,301,212,499,143,549,169,382,364,331,589,304" alt  ="Elephant" href="elephant.html" target="_blank">
+            <area shape="poly" coords="694,406,683,440,711,436,727,451,742,435,767,428,730,410,709,408" alt="pelican" href="pelican.html" target="_blank">
+        </map>
+    </body>
+</html>

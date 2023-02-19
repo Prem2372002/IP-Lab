@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>✅ CHECK IP ADDRESS !!!</h1>
+    <style>
+        .font
+        {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            background: peachpuff;
+        }
+        .button{
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 8px;;
+                background-color: peachpuff;
+                font-size: large;
+            }
+    </style>
+</head>
+<body class="font">
+
+<CENTER>
+<h2 class="font" > ENTER THE ADDRESS :</h2>
+<input type="text" id="myNumber" >
+
+<h3 class="font">ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ɪᴘ ᴀᴅᴅʀᴇꜱꜱ ɪꜱ ᴄᴏʀʀᴇᴄᴛ ᴏʀ ɴᴏᴛ !</h3>
+
+<button class="button" onclick="myFunction()">CHECK</button>
+
+<p class="font" id="display"></p>
+
+<p class="font" id="demo"></p>
+
+<script>
+
+var down = document.getElementById('display');
+
+	
+
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  document.getElementById("demo").innerHTML = x;
+  down.innerHTML =
+	/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(x);
+	}
+</script>
+</CENTER>
+
+</body>
+</html>

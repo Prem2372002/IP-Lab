@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h4 class="subheading">Employee Registration</h4>
+        <form name="myForm" action="">
+            <div class="field">
+                <p>Employee ID</p>
+                <input type="text" class="input-1" id="input1" name="eID"/>
+                <p class="error" id="req1">Employee ID is required</p>
+                <p class="error" id="val1">Employee ID is not valid</p>
+            </div>
+            <div class="field m-left">
+                <p>Employee Name</p>
+                <input type="text" class="input-1" id="input2" name="lname"/>
+                <p class="error" id="req2">Employee Name is required</p>
+            </div>
+            <div class="field">
+                <p>Address</p>
+                <input type="text" class="input-2" id="input3" name="address" style="height: 100px;"/>
+                <p class="error" id="req3">Address is required</p>
+            </div>
+            <div class="field">
+                <p>Gender</p>
+                <input type="radio"  name="male" value="Male">
+                <label for="male">MALE</label><br>
+                <input type="radio"  name="female" value="Female">
+                <label for="female">FEMALE</label><br>
+            </div>
+            <div class="field">
+                <p>DOB</p>
+                <input type="date" class="input-2" id="input3"  style="padding-top: 10px;"/>
+            </div>
+            <div class="field">
+                <p>Age</p>
+                <input type="text" class="input-2" id="input4" name="age"/>
+                <p class="error" id="req4">Age is required</p>
+            </div>
+
+            <div class="field">
+                <p>Area of interest</p>
+                <input type="text" class="input-2" id="input5" name="aoi"/>
+                <p class="error" id="req5">Area of interest is required</p>
+                
+            </div>
+            
+            <div class="field">
+                <p>Qualification</p>
+                <input type="text" class="input-2" id="input6" name="qual"/>
+                <p class="error" id="req6">Qualification is required</p>
+            </div>
+            <div class="field">
+                <p>Year of experience</p>
+                <input type="text" class="input-1" id="input7" name="exYear"/>
+                <p class="error" id="req7">Experience is required</p>
+            </div>
+            <div class="field">
+                <p>Contact Number</p>
+                <input type="text" class="input-1" id="input8" name="num"/>
+                <p class="error" id="req8">Contact Number is required</p>
+                <p class="error" id="val6">Contact Number is not valid</p>
+                
+            </div>
+            <button type="button" class="submitBtn" id="submitBtn" onclick="formValidation()">Submit</button>
+            <button type="button" class="submitBtn" id="submitBtn" onclick="formClear()">Clear</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

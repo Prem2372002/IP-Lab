@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            var words = $.trim($("textarea").val()).split(" ");
+            $("#d1").html("LENGTH OF THE TEXT ENTERED INSIDE THE TEXT AREA : "+words.length);
+        });
+    });
+</script>
+</head>
+<body style="background-color:violet;">
+    <center>
+    <h1>WRITE THE WORD TO COUNT THE LENGTH</h1>
+    <textarea cols="190" rows="10"></textarea>
+    <br><br>
+    <button type="button">Count Words</button>
+    <h3 id="d1"></h3>
+    </center>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+-->
+<html>
+    <head>
+       
+    </head>
+    <body>
+        <form>
+            productid<input type="text" id="t1">
+            <input type="button" value="submit" onclick="display()">
+            <div id="c"> </div>
+        </form>
+        <script>
+            function display()
+            {
+            
+                var doc;
+                x=new XMLHttpRequest();
+          
+               
+                x.onreadystatechange=function()
+                {
+                   
+                    if(x.readyState==4&&x.status==200)
+                    {
+                       doc=x.responseXML;
+                       var a=doc.getElementsByTagName("product");
+                      
+                       var b=document.getElementById('t1').value;
+                      
+                       for(i=0;i<a.length;i++)
+                       {
+                          
+                           if(b.match(a[i].getElementsByTagName("code")[0].childNodes[0].nodeValue))
+                           {
+                             
+                               j=i;
+                              document.getElementById('c').innerHTML="name"+a[i].getElementsByTagName("name")[0].childNodes[0].nodeValue+"<br>about"+a[i].getElementsByTagName("description")[0].childNodes[0].nodeValue+"<br>price"+a[i].getElementsByTagName("price")[0].childNodes[0].nodeValue;
+                               
+                           }
+                       };
+                     
+                  
+                               
+                    }
+                }
+                x.open("get","products.xml",true);
+                x.send();
+               
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <code>001</code>
+    <name>Product 1</name>
+    <description>This is the first product.</description>
+    <price>19.99</price>
+  </product>
+  <product>
+    <code>002</code>
+    <name>Product 2</name>
+    <description>This is the second product.</description>
+    <price>29.99</price>
+  </product>
+  <product>
+    <code>003</code>
+    <name>Product 3</name>
+    <description>This is the third product.</description>
+    <price>39.99</price>
+  </product>
+  <product>
+    <code>004</code>
+    <name>Product 4</name>
+    <description>This is the fourth product.</description>
+    <price>49.99</price>
+  </product>
+</products>
+

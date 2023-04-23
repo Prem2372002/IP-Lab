@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/xsl "href="grades.xsl" ?>
+
+<students>
+  <student>
+    <name>AAA</name>
+    <grade>B+</grade>
+  </student>
+  <student>
+    <name>BBB</name>
+    <grade>A</grade>
+  </student>
+  <student>
+    <name>CCC</name>
+    <grade>A</grade>
+  </student>
+  <student>
+    <name>CCC</name>
+    <grade>C</grade>
+  </student>
+</students>
